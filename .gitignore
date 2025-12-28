@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Models
+models/*.pkl
+models/*.json
+
+# Environment
+.env
+.env.local
+.venv
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+*.csv
+*.xlsx
+*.json
+!package.json
+!tsconfig.json
+
